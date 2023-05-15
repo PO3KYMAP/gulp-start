@@ -1,0 +1,35 @@
+.header {
+  background-color: #151515;
+  &-main {
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+  }
+  &__inner {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+.menu {
+  &__btn {
+    display: none;
+  }
+  &__list {
+    display: flex;
+    gap: 35px;
+    &-link {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.active,  .menu__list-link:hover{
+  color: #0066FF;
+}

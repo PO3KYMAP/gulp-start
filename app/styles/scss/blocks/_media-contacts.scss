@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+    .blog {
+        &__items {
+            grid-template-columns: 1fr;
+        }
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .form {
+        justify-content: center;
+        &__input {
+        width: 100%;
+        }
+    }
+     .contacts {
+        &__text {
+            font-size: 20px;
+            padding: 0;
+        }
+    }
+}

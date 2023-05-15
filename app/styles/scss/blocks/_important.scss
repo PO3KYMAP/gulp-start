@@ -1,0 +1,22 @@
+.important {
+    padding-bottom: 150px;
+    &__title{
+        margin-bottom: 20px;
+    }
+    &__text {
+        max-width: 580px;
+        margin: 0 auto 50px;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    &__item{
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 270px;
+        &-img{
+            margin-bottom: 20px;
+        }
+    }
+}

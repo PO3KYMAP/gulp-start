@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-title{
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center
+}
+.showmore-link {
+  background: #151515;
+        padding: 13px;
+        color: #fff;
+       text-transform: uppercase;
+       width: 225px;
+       margin: 0 auto;
+       text-align: center;
+       display: block;
+}
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/top";
+@import "blocks/lease";
+@import "blocks/how-does";
+@import "blocks/video";
+@import "blocks/important";
+@import "blocks/contacts";
+@import "blocks/blog";
+@import "blocks/choose";
+@import "blocks/media-main";
+@import "blocks/media-contacts";
+@import "blocks/media-new-cars";

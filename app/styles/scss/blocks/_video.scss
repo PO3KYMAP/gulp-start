@@ -1,0 +1,18 @@
+.video {
+    padding-bottom: 150px;
+    &__title{
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    &__content {
+        display: block;
+        margin: 0 auto;
+        width: 1000px;
+        height: 650px;
+    }
+}
